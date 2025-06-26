@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard - E-Learning</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Dashboard</h1>
+    <nav>
+      <a href="login.html" onclick="logout()">Logout</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="dashboard">
+      <h2>Welcome back, <span id="userName"></span>!</h2>
+      <p>This is your learning dashboard.</p>
+    </section>
+  </main>
+
+  <script>
+    const name = localStorage.getItem("name");
+    if (!name) {
+      window.location.href = "login.html";
+    } else {
+      document.getElementById("userName").textContent = name;
+    }
+    function logout() {
+      localStorage.removeItem("name");
+      localStorage.removeItem("email");
+      localStorage.removeItem("password");
+    }
+  </script>
+</body>
+</html>
