@@ -56,3 +56,10 @@ style.css – Global stylesheet for visual design.
 script.js – Contains logic for updating the progress bar.
 
 OUTPUT:
+![Image](https://github.com/user-attachments/assets/5c8cf7cd-3a3e-4b89-b254-5f18e5c3037f)
+![Image](https://github.com/user-attachments/assets/ad13c93c-356c-4f59-8113-7bbd30ae7d50)
+![Image](https://github.com/user-attachments/assets/24617e16-5c1a-4c08-91fe-99bb336f683a)
+![Image](https://github.com/user-attachments/assets/0eeda223-a750-410f-b56a-678335c55781)
+![Image](https://github.com/user-attachments/assets/6d2b4956-4f13-4be3-8a94-0b9d10d69e87)
+![Image](https://github.com/user-attachments/assets/e6c38681-ccca-4dbf-b730-9f6636da0ce6)
+![Image](https://github.com/user-attachments/assets/a71645f0-fd3d-4e06-b027-e28438a9be01)
