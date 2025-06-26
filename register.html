@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Register - E-Learning</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Register</h1>
+    <nav>
+      <a href="login.html">Login</a>
+    </nav>
+  </header>
+
+  <main class="form-container">
+    <form onsubmit="return registerUser(event)">
+      <label for="name">Name</label>
+      <input type="text" id="registerName" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="registerEmail" required>
+
+      <label for="password">Password</label>
+      <input type="password" id="registerPassword" required>
+
+      <button type="submit">Register</button>
+      <p>Already have an account? <a href="login.html">Login here</a></p>
+    </form>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
